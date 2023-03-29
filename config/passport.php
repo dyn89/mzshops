@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'private_key' => env('PASSPORT_PRIVATE_KEY'),
+    'private_key' => getenv('PASSPORT_PRIVATE_KEY', env('PASSPORT_PRIVATE_KEY')),
 
-    'public_key' => env('PASSPORT_PUBLIC_KEY'),
+    'public_key' => getenv('PASSPORT_PUBLIC_KEY', env('PASSPORT_PUBLIC_KEY')),
 
     /*
     |--------------------------------------------------------------------------
@@ -47,8 +47,8 @@ return [
     ],
 
     'password_grant_client' => [
-        'id' => env('PASSWORD_GRANT_CLIENT_ID'),
-        'secret' => env('PASSWORD_GRANT_CLIENT_SECRET'),
+        'id' => getenv('PASSWORD_GRANT_CLIENT_ID', env('PASSWORD_GRANT_CLIENT_ID')),
+        'secret' => getenv('PASSWORD_GRANT_CLIENT_SECRET', env('PASSWORD_GRANT_CLIENT_SECRET')),
      ],
 
     /*

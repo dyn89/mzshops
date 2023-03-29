@@ -36,7 +36,7 @@ class LoginController extends Controller
 
         Log::info("LoginController@login，请求令牌");
         $client = new Client([
-            'base_uri' => env('APP_URL'),
+            'base_uri' => config('app.url'),
             'timeout' => 10
         ]);
         $res = $client->request('POST', '/oauth/token', [
