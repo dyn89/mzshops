@@ -105,7 +105,6 @@ class ComposerStaticInita79ba4a3868970a0c563eb16aafc87d7
         'Q' => 
         array (
             'Qcloud\\Cos\\' => 11,
-            'QCloud\\COSSTS\\' => 14,
         ),
         'P' => 
         array (
@@ -337,10 +336,6 @@ class ComposerStaticInita79ba4a3868970a0c563eb16aafc87d7
         'Qcloud\\Cos\\' => 
         array (
             0 => __DIR__ . '/..' . '/qcloud/cos-sdk-v5/src',
-        ),
-        'QCloud\\COSSTS\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/qcloud_sts/qcloud-sts-sdk/src',
         ),
         'Psy\\' => 
         array (
@@ -4268,8 +4263,6 @@ class ComposerStaticInita79ba4a3868970a0c563eb16aafc87d7
         'Psy\\VersionUpdater\\GitHubChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/GitHubChecker.php',
         'Psy\\VersionUpdater\\IntervalChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/IntervalChecker.php',
         'Psy\\VersionUpdater\\NoopChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/NoopChecker.php',
-        'QCloud\\COSSTS\\Scope' => __DIR__ . '/..' . '/qcloud_sts/qcloud-sts-sdk/src/Scope.php',
-        'QCloud\\COSSTS\\Sts' => __DIR__ . '/..' . '/qcloud_sts/qcloud-sts-sdk/src/Sts.php',
         'Qcloud\\Cos\\Client' => __DIR__ . '/..' . '/qcloud/cos-sdk-v5/src/Client.php',
         'Qcloud\\Cos\\CommandToRequestTransformer' => __DIR__ . '/..' . '/qcloud/cos-sdk-v5/src/CommandToRequestTransformer.php',
         'Qcloud\\Cos\\Copy' => __DIR__ . '/..' . '/qcloud/cos-sdk-v5/src/Copy.php',

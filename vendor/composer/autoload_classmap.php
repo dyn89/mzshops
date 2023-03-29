@@ -3714,8 +3714,6 @@ return array(
     'Psy\\VersionUpdater\\GitHubChecker' => $vendorDir . '/psy/psysh/src/VersionUpdater/GitHubChecker.php',
     'Psy\\VersionUpdater\\IntervalChecker' => $vendorDir . '/psy/psysh/src/VersionUpdater/IntervalChecker.php',
     'Psy\\VersionUpdater\\NoopChecker' => $vendorDir . '/psy/psysh/src/VersionUpdater/NoopChecker.php',
-    'QCloud\\COSSTS\\Scope' => $vendorDir . '/qcloud_sts/qcloud-sts-sdk/src/Scope.php',
-    'QCloud\\COSSTS\\Sts' => $vendorDir . '/qcloud_sts/qcloud-sts-sdk/src/Sts.php',
     'Qcloud\\Cos\\Client' => $vendorDir . '/qcloud/cos-sdk-v5/src/Client.php',
     'Qcloud\\Cos\\CommandToRequestTransformer' => $vendorDir . '/qcloud/cos-sdk-v5/src/CommandToRequestTransformer.php',
     'Qcloud\\Cos\\Copy' => $vendorDir . '/qcloud/cos-sdk-v5/src/Copy.php',

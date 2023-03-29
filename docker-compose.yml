@@ -21,6 +21,8 @@ services:
       - MYSQL_USERNAME=homestead
       - MYSQL_PASSWORD=secret
       - MYSQL_ADDRESS=192.168.10.10
+      - MYSQL_DATABASE=mingzhushop
+      - MYSQL_ADDRESS=192.168.10.10:3306
 networks:
   default:
     external:

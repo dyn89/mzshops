@@ -5,7 +5,7 @@
       "domain": "",
       "ip": "",
       "mode": "compose",
-      "containerId": "00cd54a7bfb8074a91d41c3dffbaa8ffc8707b208bf6c0af1768ba1b666961d2"
+      "containerId": "2e0d730249fb353b0491e0c07f091ad23ad344833e946b72d766a7b7f4cf4db6"
     }
   ],
   "config": {
@@ -29,8 +29,9 @@
       ],
       "envParams": {
         "MYSQL_USERNAME": "homestead",
+        "MYSQL_DATABASE": "mingzhushop",
         "MYSQL_PASSWORD": "secret",
-        "MYSQL_ADDRESS": "192.168.10.10"
+        "MYSQL_ADDRESS": "192.168.10.10:3306"
       },
       "customLogs": "/app/storage/logs/*",
       "dataBaseName": "mingzhushop",

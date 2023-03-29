@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8619c3a9f77cd4380644163d9a67f854",
+    "content-hash": "ecb0b940926a9dfd74d8d24ea3e7cbf7",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -3174,58 +3174,6 @@
                 "source": "https://github.com/tencentyun/cos-php-sdk-v5/tree/v2.6.1"
             },
             "time": "2023-02-07T09:49:12+00:00"
-        },
-        {
-            "name": "qcloud_sts/qcloud-sts-sdk",
-            "version": "3.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tencentyun/qcloud-cos-sts-php-sdk.git",
-                "reference": "d5722151ada6e41da3b27cd4b6ad2ce04baa1163"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tencentyun/qcloud-cos-sts-php-sdk/zipball/d5722151ada6e41da3b27cd4b6ad2ce04baa1163",
-                "reference": "d5722151ada6e41da3b27cd4b6ad2ce04baa1163",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "QCloud\\COSSTS\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "qcloudterminal",
-                    "email": "qcloudterminal@gmail.com"
-                },
-                {
-                    "name": "tuunalai",
-                    "email": "550566181@qq.com"
-                }
-            ],
-            "description": "PHP SDK for QCloud STS",
-            "homepage": "https://github.com/tencentyun/qcloud-cos-sts-sdk",
-            "keywords": [
-                "cos",
-                "php",
-                "qcloud",
-                "sts"
-            ],
-            "support": {
-                "issues": "https://github.com/tencentyun/qcloud-cos-sts-php-sdk/issues",
-                "source": "https://github.com/tencentyun/qcloud-cos-sts-php-sdk/tree/3.0.8"
-            },
-            "time": "2022-04-15T02:46:57+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
