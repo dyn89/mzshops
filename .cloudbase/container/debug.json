@@ -1,0 +1,42 @@
+{
+  "containers": [
+    {
+      "name": "mzshops",
+      "domain": "",
+      "ip": "",
+      "mode": "compose",
+      "containerId": "00cd54a7bfb8074a91d41c3dffbaa8ffc8707b208bf6c0af1768ba1b666961d2"
+    }
+  ],
+  "config": {
+    "mzshops": {
+      "containerPort": 80,
+      "minNum": 0,
+      "maxNum": 5,
+      "cpu": 1,
+      "mem": 2,
+      "policyType": "cpu",
+      "policyThreshold": 60,
+      "policyDetails": [
+        {
+          "PolicyType": "cpu",
+          "PolicyThreshold": 60
+        },
+        {
+          "PolicyType": "mem",
+          "PolicyThreshold": 60
+        }
+      ],
+      "envParams": {
+        "MYSQL_USERNAME": "homestead",
+        "MYSQL_PASSWORD": "secret",
+        "MYSQL_ADDRESS": "192.168.10.10"
+      },
+      "customLogs": "/app/storage/logs/*",
+      "dataBaseName": "mingzhushop",
+      "executeSQLs": [
+        "CREATE DATABASE IF NOT EXISTS mingzhushop;"
+      ]
+    }
+  }
+}
